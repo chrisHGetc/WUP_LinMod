@@ -146,6 +146,9 @@ model.3 <- lm(SIMS~ARM+GRIP,data=data)
 summary.lm(model.3)
 ```
 
+Based on the additional information provided, where the residual standard error for the model using ARM and GRIP is 1.144 and the adjusted R-squared is 0.5358, it suggests that the model has a relatively low residual standard error and a moderate adjusted R-squared value.The lower residual standard error of 1.144 indicates that the model has less unexplained variability, which implies that the model is better at predicting the response variable (SIMS) based on the predictors (ARM and GRIP).The adjusted R-squared value of 0.5358 suggests that approximately 53.58% of the variability in the response variable can be explained by the predictors in the model using ARM and GRIP. This indicates that the model provides a reasonable fit to the data and that ARM and GRIP are informative in explaining the variation in SIMS.
+
+
 #### predict model.3 at target point
   
 
