@@ -63,6 +63,7 @@ Considering the provided information, with a residual standard error of 1.226 an
 
 ```{r}
 mydata<- data.frame (GRIP=88, ARM= 104)
+predict.lm(model.1,mydata, interval = "prediction")
 ```
 
 
