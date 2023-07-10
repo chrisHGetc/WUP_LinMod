@@ -102,7 +102,10 @@ Based on the provided numerical results, the correlation coefficient between SIM
 
 
 ### Inferential  (Build model.2)
-
+```{r}
+model.2 <- lm(SIMS~GRIP,data=data)
+summary.lm(model.1)
+```
 
 
 #### predict model.2 at target point
