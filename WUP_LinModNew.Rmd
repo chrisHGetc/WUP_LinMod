@@ -57,6 +57,8 @@ model.1 <- lm(SIMS~ARM,data=data)
 summary.lm(model.1)
 ```
 
+Considering the provided information, with a residual standard error of 1.226 and an adjusted R-squared of 0.0467, the analysis suggests that the model may not be the most suitable for making accurate predictions. The low value of the adjusted R-squared indicates that only a small proportion of the variability in the response variable can be explained by the predictor variables. Additionally, the relatively high residual standard error indicates that there is significant unexplained variability in the model
+
 #### Predict at target point
 
 
