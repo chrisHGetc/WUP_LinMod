@@ -170,7 +170,10 @@ The P-value is .000004994 which does not have any value.
 ```{r}
 anova(model.2, model.3)
 ```
-
+Based on the provided information, it seems that the p-values associated with the variables in the models are being used to compare their significance and determine model superiority.A smaller p-value indicates greater statistical significance, suggesting that the corresponding variable has a stronger relationship with the response variable. Therefore, if the p-value associated with a variable in Model 3 is smaller than the p-value of the same variable in Model 1 or Model 2, it implies that the variable in Model 3 is more significant and has a stronger association with the response variable.Based on this reasoning, you conclude that Model 3 is better than Model 1, and Model 2. This comparison is made by considering the significance of the variables in each model as determined by their p-values. 
 
 ## Informally compare Model.1 with model.2
-
+```{r}
+anova(model.1,model.2)
+```
+The residuals sum of squares errors between these two models doesn't show a p-value. 
