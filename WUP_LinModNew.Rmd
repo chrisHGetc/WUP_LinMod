@@ -61,6 +61,11 @@ Considering the provided information, with a residual standard error of 1.226 an
 
 #### Predict at target point
 
+```{r}
+mydata<- data.frame (GRIP=88, ARM= 104)
+```
+
+
 
 #### scatterplot with model fit
   
