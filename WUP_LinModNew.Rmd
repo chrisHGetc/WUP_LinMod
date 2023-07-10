@@ -114,7 +114,7 @@ Therefore, based on these metrics, analyzing the data using SIMS and ARM is cons
 ```{r}
 predict.lm(model.2,mydata, interval = "prediction")
 ```
-
+The given regression analysis yields a predicted value of -0.8089323 for the response variable. The corresponding prediction interval suggests that the actual response value is likely to fall within the range of -3.38434 to 1.766475. This interval captures the uncertainty associated with the prediction and provides a range of plausible values for the response variable. Therefore, based on the analysis, the predicted value falls within the lower end of the prediction interval, indicating a higher likelihood of the actual value being closer to the lower bound (-3.38434) rather than the upper bound (1.766475).
 
 #### now add the model fit to our plot for model.2
   
