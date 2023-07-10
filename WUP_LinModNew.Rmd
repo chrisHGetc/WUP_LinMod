@@ -111,7 +111,9 @@ Therefore, based on these metrics, analyzing the data using SIMS and ARM is cons
 
 #### predict model.2 at target point
 
-
+```{r}
+predict.lm(model.2,mydata, interval = "prediction")
+```
 
 
 #### now add the model fit to our plot for model.2
