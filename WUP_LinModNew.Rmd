@@ -153,9 +153,16 @@ Based on the additional information provided, where the residual standard error 
 ```{r}
 predict.lm(model.3,mydata, interval = "prediction")
 ```
+In this case, the predicted value for the response variable is 0.5997969. The prediction interval provides an estimate of the range within which the actual response value is expected to fall. The lower bound of the prediction interval is -1.716184, and the upper bound is 2.915777. The actual value is likely to fall within the range of -1.716184 to 2.915777, with the predicted value of 0.5997969 being the midpoint
+
 
 ## Comparing nested models ANOVA Test
 
+
+```{r}
+anova(model.1,model.3)
+```
+Gives a p-value of .00000499, which does not have any value 
 ### Model.1 vs Model.3
 ### Model.2 vs Model.3
 
