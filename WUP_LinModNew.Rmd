@@ -118,7 +118,16 @@ The given regression analysis yields a predicted value of -0.8089323 for the res
 
 #### now add the model fit to our plot for model.2
   
+```{r}
+mygrip <- ggplot(data, aes(y = SIMS, x = GRIP)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "SIMS ~ GRIP") +
+  theme(plot.title = element_text(hjust = 0.5))
 
+mygrip
+
+```
 
 ## Model 3 SIM~ARM+GRIP
 
