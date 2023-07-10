@@ -104,11 +104,15 @@ Based on the provided numerical results, the correlation coefficient between SIM
 ### Inferential  (Build model.2)
 ```{r}
 model.2 <- lm(SIMS~GRIP,data=data)
-summary.lm(model.1)
+summary.lm(model.2)
 ```
-
+Based on the provided information, where the residual standard error for the analysis using SIMS and ARM is 1.295 and the adjusted R-squared is 0.4053, it suggests that the model using SIMS and ARM as predictors provides a better fit to the data compared to the model using SIMS and GRIP.The lower residual standard error of 1.295 indicates that the model using SIMS and ARM has less unexplained variability compared to the model using SIMS and GRIP. Additionally, the higher adjusted R-squared value of 0.4053 suggests that a larger proportion of the variability in the response variable can be explained by the predictors in the model using SIMS and ARM.
+Therefore, based on these metrics, analyzing the data using SIMS and ARM is considered a better approach.
 
 #### predict model.2 at target point
+
+
+
 
 #### now add the model fit to our plot for model.2
   
