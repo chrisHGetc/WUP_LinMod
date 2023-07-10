@@ -159,11 +159,11 @@ In this case, the predicted value for the response variable is 0.5997969. The pr
 ## Comparing nested models ANOVA Test
 
 
+### Model.1 vs Model.3
 ```{r}
 anova(model.1,model.3)
 ```
-Gives a p-value of .00000499, which does not have any value 
-### Model.1 vs Model.3
+
 ### Model.2 vs Model.3
 
 ## Informally compare Model.1 with model.2
