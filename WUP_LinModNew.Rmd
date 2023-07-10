@@ -65,7 +65,7 @@ Considering the provided information, with a residual standard error of 1.226 an
 mydata<- data.frame (GRIP=88, ARM= 104)
 predict.lm(model.1,mydata, interval = "prediction")
 ```
-
+Based on the provided information, the predicted value is 1.58, and the prediction interval is given as (-0.86, 4.02). Since the predicted value of 1.58 falls within the lower end of the prediction interval, it suggests that the actual value is more likely to be closer to the lower end of the range (-0.86) rather than the upper end (4.02). However, without additional information or context, it is challenging to determine the exact position within the prediction interval.
 
 
 #### scatterplot with model fit
