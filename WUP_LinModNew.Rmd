@@ -137,7 +137,7 @@ mygrip
 ```{r}
 cor(SIMS~ARM+GRIP,data=data)
 ```
-
+With the additional information provided, which indicates a correlation coefficient of 0.7326545 between ARM and GRIP, it suggests a strong positive linear relationship between these two variables.A correlation coefficient of 0.7326545 indicates a fairly high correlation, implying that there is a significant tendency for the values of ARM and GRIP to move together in a linear fashion. As the correlation coefficient approaches 1, it indicates a stronger positive linear relationship between the variables.
   
 ### Inferential  (Build 2-dimentional model.3)
 
