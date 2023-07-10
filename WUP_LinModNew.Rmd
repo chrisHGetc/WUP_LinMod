@@ -150,7 +150,9 @@ Based on the additional information provided, where the residual standard error 
 
 
 #### predict model.3 at target point
-  
+```{r}
+predict.lm(model.3,mydata, interval = "prediction")
+```
 
 ## Comparing nested models ANOVA Test
 
