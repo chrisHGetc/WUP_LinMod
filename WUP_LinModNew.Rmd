@@ -97,12 +97,13 @@ mygrip
 ```{r}
 cor(SIMS~GRIP,data=data)
 ```
-
+Based on the provided numerical results, the correlation coefficient between SIMS and ARM is 0.6860073, which is higher than the correlation coefficient between SIMS and GrIP, which is 0.6398458. This indicates that there is a stronger linear relationship between SIMS and ARM compared to SIMS and Grip. The higher correlation value suggests that changes in ARM are more closely associated with changes in SIMS than changes in Grip.
 
 
 
 ### Inferential  (Build model.2)
-  
+
+
 
 #### predict model.2 at target point
 
