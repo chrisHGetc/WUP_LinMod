@@ -52,7 +52,10 @@ Based on the provided numerical data, where the mean is approximately 0.6860073,
 
 ### Inferential  (Build model.1)
 
-
+```{r}
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
 
 #### Predict at target point
 
